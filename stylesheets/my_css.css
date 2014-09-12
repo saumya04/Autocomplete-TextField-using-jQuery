@@ -1,0 +1,92 @@
+	span {
+		
+		font-family: 'Source Sans Pro', 'sans-serif';
+		font-weight: 300;
+		font-size: 25px;
+		padding: 5px 15px;
+		border-radius: 10px 10px;
+		box-shadow: none;
+		display: block;
+		background: none;
+		cursor: pointer;
+		outline: none;
+		
+	}
+
+	.fa:hover {
+		
+		color: #F1316D;
+		
+	}
+
+	a {
+		
+		color: inherit;
+		text-decoration: none !important;
+		
+	}
+
+	.footer {
+		
+		width: 100%;
+    	text-align: center;
+		bottom: 0;
+		top: auto;
+		
+	}
+
+		#search {
+			
+			width: 40%;
+			padding: 10px 10px;
+			font-family: 'Source Sans Pro', 'sans-serif';
+			font-weight: 400;
+			font-size: 25px;
+			border-style: solid;
+			border-color: #F1316D;
+			opacity: 50%;
+			text-transform: capitalize;
+			outline: none;
+			
+		}
+		
+		#search:focus {
+		
+			border-color: #F1316D;
+			
+		}
+		
+		.hlp-txt {
+			
+			color: #63666A;
+			color: #F6F6F6;
+			font-family: 'Source Sans Pro', 'sans-serif';
+			font-weight: 300;
+			margin-bottom: 10px;
+			
+		}
+		
+		h1 {
+			
+			font-family: 'Source Sans Pro', 'sans-serif';
+			font-weight: 700;
+			margin-bottom: 40px;
+			color: #FFF;
+			
+		}
+		
+		body {
+			
+			background-image: url(../images/bg.jpg);
+			background-size: cover;
+			
+		}
+		
+		.ui-autocomplete {
+            max-height: 200px;
+            overflow-y: auto;
+            /* prevent horizontal scrollbar */
+            overflow-x: hidden;
+            /* add padding to account for vertical scrollbar */
+        } 
+	
